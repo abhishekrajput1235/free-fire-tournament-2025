@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-dark-gradient text-white antialiased;
+  }
+}
+
+
+@font-face {
+  font-family: "MyCustomFont";
+  src: url("../src/assets/fonts/myfont.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: "MyCustomFont", sans-serif;
+}
+
+@layer utilities {
+  .text-fire-gradient {
+    @apply bg-fire-gradient bg-clip-text text-transparent;
+  }
+
+  .glow-text {
+    text-shadow: 0 0 10px rgba(255, 107, 0, 0.8),
+                 0 0 20px rgba(255, 107, 0, 0.6),
+                 0 0 30px rgba(255, 107, 0, 0.4);
+  }
+
+  .fire-border {
+    border-image: linear-gradient(135deg, #ff0000, #ff6b00, #ffff00) 1;
+  }
+}
