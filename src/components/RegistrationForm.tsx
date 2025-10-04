@@ -617,7 +617,7 @@ const ContactForm = () => {
 
     try {
       await fetch(
-        "https://script.google.com/macros/s/AKfycbw5Hoh4NcTsVQrk5MkR8pdGlRvRGrcWNgYULORyb_2GVFVpApGKgse6fal0FvgI1VEE/exec",
+        "https://script.google.com/macros/s/AKfycbw5sQhJwgTtFbG9oomSaKiw3D93u5UbXZnEwOh4NANnFCj0RrrmbZ99Kqo3ph0wGOWI/exec",
         {
           method: "POST",
           mode: "no-cors",
