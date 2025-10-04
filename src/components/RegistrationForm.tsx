@@ -516,7 +516,7 @@ const RegistrationForm = () => {
                 whileTap={{ scale: 0.98 }}
               >
                 <Flame className="w-6 h-6 animate-fire-flicker" />
-                Register Team
+                Contact Us
                 <Flame className="w-6 h-6 animate-fire-flicker" />
               </motion.button>
             </form>

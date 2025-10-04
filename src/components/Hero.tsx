@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Flame, Trophy, ChevronDown } from 'lucide-react';
+import { Flame, Trophy, ChevronDown, Target } from 'lucide-react';
 import { useEffect, useState } from 'react';
 
 const Hero = () => {
@@ -31,7 +31,7 @@ const Hero = () => {
   }, []);
 
   const scrollToRegistration = () => {
-    document.getElementById('registration')?.scrollIntoView({ behavior: 'smooth' });
+    window.open("https://docs.google.com/forms/d/e/1FAIpQLSdONbaHzCBiqT9KIjTD1bXry0JKhrDEqGGPlfu8aCRLmFl7pQ/viewform","_blank")
   };
 
   return (
